@@ -12,7 +12,6 @@ This project develops a comparative framework:
 
 ## 📂 **Repository Structure**
 
-📁 HDB-Resale-OLS-GWR-Analysis/
 │code/
 ├── 00DataPreprocessing.ipynb
 ├── 01DataPreparation.ipynb
