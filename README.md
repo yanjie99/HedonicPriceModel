@@ -12,20 +12,20 @@ This project develops a comparative framework:
 
 ## 📂 **Repository Structure**
 
-│code/
-├── 00DataPreprocessing.ipynb
-├── 01DataPreparation.ipynb
-├── 02Prepare Analysis-ready HDB features.ipynb
-├── 03Exploratory Spatial Analysis OLS.ipynb
-├── 03Exploratory Spatial Analysis OLS & Moran's I.ipynb
-├── 04Local Modeling (GWR).ipynb
-├── SpatialJoin_datapreprocess_OLS_GWR.ipynb
-│
-├data/                   # raw & cleaned datasets
-├── figures/             # generated maps, diagnostics, visuals
-├── results/             # OLS & GWR outputs, CSVs, summaries
-│
-└── README.md
+  │code/
+  ├── 00DataPreprocessing.ipynb
+  ├── 01DataPreparation.ipynb
+  ├── 02Prepare Analysis-ready HDB features.ipynb
+  ├── 03Exploratory Spatial Analysis OLS.ipynb
+  ├── 03Exploratory Spatial Analysis OLS & Moran's I.ipynb
+  ├── 04Local Modeling (GWR).ipynb
+  ├── SpatialJoin_datapreprocess_OLS_GWR.ipynb
+  │
+  ├data/                   # raw & cleaned datasets
+  ├── figures/             # generated maps, diagnostics, visuals
+  ├── results/             # OLS & GWR outputs, CSVs, summaries
+  │
+  └── README.md
 
 ## 📊 **Key Research Questions**
 1. How do structual, locational, and accessibility attributes influence HDB resale prices?
