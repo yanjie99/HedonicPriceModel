@@ -11,7 +11,7 @@ This project develops a comparative framework:
 - **Local Euclidean Distance-based Geographically Weighted Regression (ED-based GWR)**(adaptive kernel, nearest-neighbour bandwidths)
 
 ## 📂 **Repository Structure**
-
+'''
   │code/
   ├── 00DataPreprocessing.ipynb
   ├── 01DataPreparation.ipynb
@@ -26,6 +26,7 @@ This project develops a comparative framework:
   ├── results/             # OLS & GWR outputs, CSVs, summaries
   │
   └── README.md
+'''
 
 ## 📊 **Key Research Questions**
 1. How do structual, locational, and accessibility attributes influence HDB resale prices?
