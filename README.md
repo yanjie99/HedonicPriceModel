@@ -56,3 +56,47 @@ Relevant notebooks:
 `00DataPreprocessing.ipynb`, `01DataPreparation.ipynb`, `02Prepare Analysis-ready HDB features.ipynb`.
 
 2. **Global Spatial Analysis (OLS + Moran's I)**
+Performed tasks:
+- Global OLS model
+- Diagnostics:
+- - R^2, adjusted R^2, AICc
+  - VIF multicollinearity checks
+  - Residual analysis
+ 
+- Global Moran's I on OLS residuals (Detects spatial autocorrelation indicating OLS deficiency)
+
+Notebook:
+`03Exploratory Spatial Analysis OLS.ipynb`, `03Exploratory Spatial Analysis OLS & Moran's I.ipynb`
+
+3. **Local Spatial Modelling (ED-Based GWR Model)**
+Key features:
+- Adaptive bisquare kernel
+- Optimal bandwidth selection using AICc
+- Subzone-level coefficient estimates
+- Maps of local R^2, t-statistics, and parameter surfaces
+
+Notebook:
+`04Local Modeling (GWR).ipynb`
+
+📈 **Main Findings (Summary)**
+- ED-GWR dramatically improves model fit (R^2 increases from 0.762 to 0.978).
+- Spatial autocorrelation in OLS residuals is largely eliminated under GWR.
+- Housing price drivers vary substantially across Singapore, particularly in central vs. outer subzones.
+- Local R^2 reveals strong heterogeneity, identifying areas where accessibility or structual attributes dominate price formation.
+
+🗂 **Reproducibility Guide**
+**Requirements**
+Recommended environment:
+- Python 3.10+
+- GeoPandas
+- libpysal, esda
+- mgwr
+- shapely, pyproj
+- contextily
+- pandas, numpy, matplotlib
+
+Install dependencies:
+$$pip install -r requirements.txt$$
+
+
+
