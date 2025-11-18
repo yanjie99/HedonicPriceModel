@@ -97,7 +97,18 @@ Recommended environment:
 
 Install dependencies:
 ```
-pip install -r requirements.txt$$
+pip install -r requirements.txt
 ```
 
+**How to Run**
+1. Clone the repository:
+```
+git clone https://github.com/yanjie99/HDB-Resale-OLS-GWR-Analysis.git
+cd HDB-Resale-OLS-GWR-Analysis
+```
+2. Open JupyterLab or Jupyter Notebook.
+3. Run notebooks in numerical folder:
+```
+00 → 01 → 02 → 03 → 04 → SpatialJoin_datapreprocess_OLS_GWR (subzone-level)
+```
 
