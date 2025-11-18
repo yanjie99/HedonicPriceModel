@@ -101,10 +101,10 @@ pip install -r requirements.txt
 ```
 
 **How to Run**
-1. Clone the repository:
+1. Clone the repository (Use SSH):
 ```
-git clone https://github.com/yanjie99/HDB-Resale-OLS-GWR-Analysis.git
-cd HDB-Resale-OLS-GWR-Analysis
+git clone git@github.com:yanjie99/HedonicPriceModel.git
+cd HedonicPriceModel/code
 ```
 2. Open JupyterLab or Jupyter Notebook.
 3. Run notebooks in numerical folder:
